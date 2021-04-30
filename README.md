@@ -1,8 +1,8 @@
 <img src="images/materia-logo.svg" alt="materia-logo" align="right" />
 
-# Materia
+# Materia Transparent
 
-Materia is a [Material Design](https://material.io) theme for GNOME/GTK based desktop environments.
+Materia Transparent is a [Material Design](https://material.io) theme for GNOME/GTK based desktop environments.
 
 It supports GTK 2, GTK 3, GTK 4, GNOME Shell, Budgie, Cinnamon, MATE, Unity, Xfce, LightDM, GDM, Chrome theme, etc.
 
@@ -10,6 +10,10 @@ It supports GTK 2, GTK 3, GTK 4, GNOME Shell, Budgie, Cinnamon, MATE, Unity, Xfc
 
 ![widget-factory](images/widget-factory.png?raw=true)
 ![widget-factory-dark](images/widget-factory-dark.png?raw=true)
+
+## Blur
+
+Use [Blur Me](https://github.com/ckissane/blur-me) gnome extension for gnome 40.
 
 ## Features
 
@@ -52,29 +56,6 @@ Supports **ripple animations** for GTK 3 and 4:
   > E.g. "Ubuntu" session, "Pop" session. To properly use Materia on GNOME Shell, please install `gnome-session` and then switch to "GNOME" or "GNOME on Xorg" session from your display manager.
 
 ## Installation
-
-### Distro Packages
-
-<!-- For contributors, please add your package alphabetically. -->
-
-Distro | Package Name | Annotation
---- | --- | ---
-Arch Linux | `materia-gtk-theme` | [Link](https://www.archlinux.org/packages/community/any/materia-gtk-theme/)
-Debian 10 or later | `materia-gtk-theme` | [Link](https://packages.debian.org/materia-gtk-theme)
-Fedora | `materia-gtk-theme` | [Link](https://src.fedoraproject.org/rpms/materia-gtk-theme)
-Solus | `materia-gtk-theme` | [Link](https://dev.getsol.us/source/materia-gtk-theme/)
-Ubuntu 18.04 or later | `materia-gtk-theme` | [Link](https://packages.ubuntu.com/materia-gtk-theme)
-
-> NOTE: Distro packages could be outdated and incompatible with your desktop environment. You can check the latest version [here](https://github.com/nana-4/materia-theme/releases).
-
-### Flatpak
-
-All 6 variants are available via Flathub:
-
-```
-flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install flathub org.gtk.Gtk3theme.Materia{,-dark,-light}{,-compact}
-```
 
 ### Manual Installation
 
