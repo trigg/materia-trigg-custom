@@ -24,7 +24,7 @@ Materia requires the following build and runtime dependencies:
 
 ```sh
 git clone https://github.com/ckissane/materia-theme-transparent.git
-cd materia-theme
+cd materia-theme-transparent
 ```
 
 2. Configure the project using Meson (you can optionally set build options [as below](#build-options)):
