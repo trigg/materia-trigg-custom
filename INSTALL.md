@@ -23,7 +23,7 @@ Materia requires the following build and runtime dependencies:
 1. Clone the repository and move into the project directory in terminal:
 
 ```sh
-git clone https://github.com/nana-4/materia-theme
+git clone https://github.com/ckissane/materia-theme-transparent.git
 cd materia-theme
 ```
 
