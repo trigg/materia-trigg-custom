@@ -58,7 +58,7 @@ $on-dark: #fff;
 // Main colors
 //
 
-$surface-z0: #f9f9f944;
+$surface-z0: #f9f9f9aa;
 $surface-z1: #fff4;
 $surface-z8: #fff4;
 $surface-switch-thumb: #fff;
@@ -115,7 +115,7 @@ $on-titlebar: on($titlebar);
 $titlebar-indicator: currentcolor;
 
 @if theme.$dark-theme {
-  $surface-z0: #12121244;
+  $surface-z0: #1D1D28D8;
   $surface-z1: color.mix(#fff4, $surface-z0, 5%);
   $surface-z8: color.mix(#fff4, $surface-z0, 12%);
   $surface-switch-thumb: color.mix(#fff4, $surface-z0, 60%);
@@ -136,7 +136,7 @@ $titlebar-indicator: currentcolor;
   $visited: $visited-on-dark;
   $on-visited: on($visited);
 
-  $titlebar: color.mix(white, $surface-z0, 9%);
+  $titlebar: $surface-z0;
   $titlebar-backdrop: $surface-z1;
   $on-titlebar: on($titlebar);
 }
