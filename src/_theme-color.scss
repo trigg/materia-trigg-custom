@@ -114,6 +114,9 @@ $on-titlebar: on($titlebar);
 
 $titlebar-indicator: currentcolor;
 
+// Needs to be clear and use the window colour
+$menubar: #00000000;
+
 @if theme.$dark-theme {
   $surface-z0: #1D1D28D8;
   $surface-z1: #202031D8;
