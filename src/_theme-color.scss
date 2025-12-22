@@ -58,9 +58,9 @@ $on-dark: #fff;
 // Main colors
 //
 
-$surface-z0: #f9f9f9aa;
-$surface-z1: #fff4;
-$surface-z8: #fff4;
+$surface-z0: rgba(249, 249, 249, 0.67);
+$surface-z1: rgba(255, 255, 255, 0.27);
+$surface-z8: rgba(255, 255, 255, 0.27);
 $surface-switch-thumb: #fff;
 $on-surface: on($surface-z0);
 
@@ -92,7 +92,7 @@ $on-visited: on($visited);
 $system: #212121;
 $on-system: on($system);
 
-$tooltip: #a1a1a188;
+$tooltip: rgba(161, 161, 161, 0.53);
 $on-tooltip: on($tooltip);
 
 $scrim: rgba(black, .6);
@@ -108,19 +108,19 @@ $on-panel: on($panel);
 $panel-solid: $panel;
 $on-panel-solid: on($panel-solid);
 
-$titlebar: #424242d8;
-$titlebar-backdrop: #303030d8;
+$titlebar: rgba(66, 66, 66, 0.85);
+$titlebar-backdrop: rgba(48, 48, 48, 0.85);
 $on-titlebar: on($titlebar);
 
 $titlebar-indicator: currentcolor;
 
 // Needs to be clear and use the window colour
-$menubar: #00000000;
 
 @if theme.$dark-theme {
-  $surface-z0: #1D1D28D8;
-  $surface-z1: #202031D8;
-  $surface-z8: #242435D8;
+  $surface-z0: rgba(29, 29, 40, 0.85);
+  $menubar: $surface-z0;
+  $surface-z1: rgba(32, 32, 49, 0.85);
+  $surface-z8: rgba(36, 36, 53, 0.85);
   $surface-switch-thumb: color.mix(#fff4, $surface-z0, 60%);
   $on-surface: on($surface-z0);
 
@@ -139,11 +139,11 @@ $menubar: #00000000;
   $visited: $visited-on-dark;
   $on-visited: on($visited);
 
-  $tooltip: #33333384;
+  $tooltip: rgba(51, 51, 51, 0.52);
   $on-tooltip: on($tooltip);
 
-  $titlebar: #1d1d28d8;
-  $titlebar-backdrop: #1d1d28d8;
+  $titlebar: rgba(29, 29, 40, 0.85);
+  $titlebar-backdrop: rgba(29, 29, 40, 0.85);
   $on-titlebar: on($titlebar);
 }
 

@@ -1,7 +1,7 @@
 option(
   'theme_name',
   type: 'string',
-  value: 'Materia',
+  value: 'Trigg',
   description: 'Base theme name',
 )
 
