@@ -7,9 +7,8 @@ Materia Transparent is a [Material Design](https://material.io) theme for GNOME/
 It supports GTK 2, GTK 3, GTK 4, GNOME Shell, Budgie, Cinnamon, MATE, Unity, Xfce, LightDM, GDM, Chrome theme, etc.
 
 ## Previews
+<img width="1002" height="714" alt="2026_02_08_15_01_16" src="https://github.com/user-attachments/assets/54a44a6b-9757-4c4b-a594-329d22b89da1" />
 
-![widget-factory](images/widget-factory.png?raw=true)
-![widget-factory-dark](images/widget-factory-dark.png?raw=true)
 
 ## Blur
 
